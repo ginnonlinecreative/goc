@@ -1,0 +1,14 @@
+open git bash
+change the current directory to local project
+<!--initialise local directory as git repositry-->
+$ git init
+<!--add the files in the new local repositry-->
+$git add
+<!--commits the files youve staged in your lcoal repositry to their first commit-->
+$ git commit -m "Initial commit"
+<!--from github repo page copy the remote registry url -->
+<!--in git bash add the ul for the repote regsitry-->
+$git remote add origin 'remote repositry url'
+<!--verifies the new remote url
+$git remote -v
+Then go to atom and push 
