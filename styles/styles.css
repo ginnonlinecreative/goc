@@ -56,7 +56,9 @@ nav ul li a:hover {
   margin: 0 auto;
 }
 
-.container img {vertical-align: middle;}
+.container img {vertical-align: middle;
+width:15%;
+}
 
 .container .content {
   position: absolute;
