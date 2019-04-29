@@ -38,12 +38,15 @@
 
       <div class="name">Nathan Ellis-Ginn</div>
       <div class="username">Freelance Web Developer</div>
-      <div class="about-me">Creative problem solver for business, agencies and privaliged individuals. I utilise all the latest developments in HTML, CSS, javascript for stunning User Focused Front Ends. Whilst taking advantage of the most secure and efficient data storage for your back office delivery </div>
+      <script>
+          // your firebase JavaScript code here
+    </script>
+      <div class="about-me" id="aboutMe">empty </div>
 
       <div class="stats">
         <div class="item followers">
           <span class="num">9</span>
-          <div class="text">Tweets</div>
+          <div class="text">Linkedin Articles</div>
         </div>
         <div class="item stars">
           <span class="num">6</span>
@@ -120,6 +123,10 @@
     messagingSenderId: "605208411316"
   };
   firebase.initializeApp(config);
+  // getting the text value from the database
+var aboutMe = document.getElementById('aboutMe');
+var dbRef = firebase.database().ref().child('initial');
+dbRef.on('value', snap => aboutMe.innerText = snap.val());
 </script>
 </body>
 </html>
