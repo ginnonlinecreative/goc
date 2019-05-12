@@ -3,7 +3,7 @@ var Txt = '{"name":"Creative Problem solver for all types of business.Based in t
 var obj = JSON.parse(Txt);
 document.getElementById("welcome-section").style.background = obj.background;
 document.getElementById("wrapper").style.background = obj.color;
-document.getElementById("aboutTxt").innerHTML = obj.name;
+document.getElementById("aboutTxt").textContent = obj.name;
 
 var how = document.getElementById('how');
 how.onmouseover = function howiwork(){
@@ -11,5 +11,21 @@ how.onmouseover = function howiwork(){
   var howobj = JSON.parse(howTxt);
   document.getElementById("welcome-section").style.background = howobj.background;
   document.getElementById("wrapper").style.background = howobj.color;
-  document.getElementById("aboutTxt").innerHTML = howobj.name;
+  document.getElementById("aboutTxt").textContent = howobj.name;
+};
+var what = document.getElementById('what');
+what.onmouseover = function whatiknow(){
+  var whatTxt = '{"name":"All sites start out with HTML, CSS, javascript", "color":"pink", "background":"lightblue"}'
+  var whatobj = JSON.parse(whatTxt);
+  document.getElementById("welcome-section").style.background = whatobj.background;
+  document.getElementById("wrapper").style.background = whatobj.color;
+  document.getElementById("aboutTxt").textContent = whatobj.name;
+};
+var contact = document.getElementById('contact');
+contact.onmouseover = function contactme(){
+  var contactTxt = '{"name":"email phone whatsapp", "color":"blue", "background":"red"}'
+  var contactobj = JSON.parse(contactTxt);
+  document.getElementById("welcome-section").style.background = contactobj.background;
+  document.getElementById("wrapper").style.background = contactobj.color;
+  document.getElementById("aboutTxt").textContent = contactobj.name;
 };
