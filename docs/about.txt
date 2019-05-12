@@ -1,0 +1,25 @@
+About
+About Me
+Photo-me.jpg
+Description -Progressive web app developer , creative problem solver for business, agencies and anyone else
+looking for a solutions to ongoing issues.
+Wrapper color -purple
+Background - color skyblue
+
+How I work
+Photo-me.jpg
+Description- How I work
+Wrapper color-
+Background- color or image
+
+What I Know
+Photo-
+Description- What I Know
+Wrapper color-
+Background- color or image
+
+Challenge Yourself
+Photo-
+Description- Challenge your self
+Wrapper color-
+Background- color or image

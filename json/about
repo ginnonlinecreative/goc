@@ -1,0 +1,11 @@
+{
+"welcomesection": [
+{"aboutMe":"Creative problem solver for business, agencies, and anyone else looking for solutions to
+online issues. Based in South East of England  I am always available to assist with business from the surrounding
+areas. However if you are from a bit further lets chat and see how best I can help.",
+"color":"#663388", "background":"#e0ebe8"},
+{"HowIWork":"description", "color":"#663388", "background":"#e0ebe8"},
+{"WhatIKnow":"description", "color":"#663388", "background":"#e0ebe8"},
+{"mySchedule":"description", "color":"#663388", "background":"#e0ebe8"}
+]
+}
