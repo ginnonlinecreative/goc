@@ -1,4 +1,3 @@
-
 var Txt = '{"name":"Creative Problem solver for all types of business.Based in the Essex I am always willing to assist business with online issues from the surrounding areas at a discounted cost.However if you are from a bit further lets chat online and see how best I can help", "color":"#663399", "background":"#e0ebe8"}'
 var obj = JSON.parse(Txt);
 document.getElementById("welcome-section").style.background = obj.background;
