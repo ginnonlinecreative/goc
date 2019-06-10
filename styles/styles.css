@@ -10,45 +10,55 @@ body {
 }
 /***********************FLEXBOX NAVBAR*************************************/
 .Navbar {   background-color: #e0ebe8;  display: flex;
-  padding:16px 16px 0px 20%; font-family: sans-serif;
+  padding:16px 16px 0px 20%; font-family: sans-serif;}
+
+  .Navbar__Items,
+    .Navbar {    flex-direction: column;  }
+  .Navbar__Items {    display:none; padding-top:5%;
 
 
- position: fixed;
+   }
+   .Navbar a {  color: #008080;
+   text-decoration: none;
+   font-size:1.25em;
 
- width: 100%;
+
+  }
+  .Navbar__Link {
+    margin-bottom:5%;
+
+
+  }
+
+  .Navbar__Items--right {    margin-left: 0;  }
+  .Navbar__Link-toggle {  align-self: flex-end;  display: initial;  position: absolute;  cursor: pointer;}
+  .Navbar__ToggleShow { display:flex;}
+
+
+
+
+@media only screen and (min-width: 768px)
+{
+  .Navbar {   background-color: #e0ebe8;  display: flex;
+  padding:0px 0px 0px 50rem;
+  font-family: sans-serif; width: 100%;
+  flex-direction:row;
+  margin-top:-3rem;
 }
 .Navbar a {  color: #008080;
 text-decoration: none;
+font-size:0.95em;
 
 }
-.Navbar__Items {  display:flex; }
+.Navbar__Items {  display:flex; flex-direction:row; }
+
 .Navbar__Link {  padding-right: 20%; }
 
 .Navbar__Link-toggle {  display: none;}
-
-@media only screen and (max-width: 768px)
-{  .Navbar__Items,
-  .Navbar {    flex-direction: column;  }
-.Navbar__Items {    display:none; padding-top:5%;
-
- }
-.Navbar a{
-
-  font-size:1.5em;
-
-}
-.Navbar__Link {
-  margin-bottom:5%;
-}
-
-.Navbar__Items--right {    margin-left: 0;  }
-.Navbar__Link-toggle {  align-self: flex-end;  display: initial;  position: absolute;  cursor: pointer;}
-.Navbar__ToggleShow { display:flex;}
-
 }
 /********************************WELCOME SECTION******************************/
 #welcome-section {
-  top: 0;
+  top: -5%;
   background: #e0ebe8;
 
   padding-top: 45vh;
