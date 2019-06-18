@@ -1,33 +1,27 @@
-html,body
-{  font-family: 'Open Sans', sans-serif;
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
+  overflow-x:hidden;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
 }
 
 
-
-
 /***********************FLEXBOX NAVBAR**************************/
-
-
 .Navbar {   background-color: #fff;  display: flex;
-  padding:5% 0px 10% 0px; font-family: sans-serif;
-width:100%; overflow-x: visible;}
+  padding:16px 16px 0px 20%; font-family: sans-serif;}
 
   .Navbar__Items,
     .Navbar {    flex-direction: column;  }
   .Navbar__Items {    display:none; padding-top:5%;
 
 
-   }
-   .hamburger{
-     color:#2EA3F2;
-     padding-right:5%;
-     font-size: 3rem;
    }
    .Navbar a {  color: #2EA3F2;
    text-decoration: none;
@@ -43,13 +37,13 @@ width:100%; overflow-x: visible;}
   }
 
   .Navbar__Items--right {    margin-left: 0;  }
-  .Navbar__Link-toggle {  align-self: flex-end;  display: initial;  position: absolute;  cursor: pointer; height:2rem;}
+  .Navbar__Link-toggle {  align-self: flex-end;  display: initial;   cursor: pointer;}
   .Navbar__ToggleShow { display:flex;}
 
-#logo{
-  background: url('https://user-images.githubusercontent.com/27768549/59360216-9be18580-8d27-11e9-9890-9ca7ff9e3d47.jpg');
-  width:50px;
-  height:50px;
+.logo{
+
+  width:150px;
+  height:150px;
 }
 
 
@@ -63,10 +57,9 @@ width:100%; overflow-x: visible;}
   flex-direction:row;
   margin-top:-3rem;
   border-bottom:2px solid #2EA3F2;
-  padding:16px 16px 0px 20%;
 
   top:0;
-min-width:100%;
+  width:100%;
   overflow:hidden;
 }
 .Navbar a {  color: #2EA3F2;
@@ -81,26 +74,26 @@ font-weight: 500;
 
 .Navbar__Link-toggle {  display: none;}
 }
-.menuFirst {
-  margin-right: auto;
-}
 
 .logo{
-  background:url("https://user-images.githubusercontent.com/27768549/59360216-9be18580-8d27-11e9-9890-9ca7ff9e3d47.jpg");
-  width:50px;
-  height:50px;}
+  text-align:center;
+  width:20%;
+  height:10%;
+}
 
 
 /********************************WELCOME SECTION******************************/
 #welcome-section {
-display:inline-block;
+
   background:url("https://user-images.githubusercontent.com/27768549/59288591-0b923a80-8c6c-11e9-93e9-0abe041bdb02.jpg");
-background-size: cover;
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: auto;
+
+
   padding-top: 35vh;
   height:100vh;
 
-width:100%;
-background-position: center;
 }
 
 .intro p {
@@ -211,7 +204,6 @@ font-size:1.5em;
 .services {
   padding-top: 60px;
   margin-top: -60px;
-width:100%;
 }
 
 .services-header {
@@ -225,7 +217,7 @@ width:100%;
 #servicesHeaderBg{
   border:lightblue 1px solid;
   background-color: #efefef;
-width:100%;
+  width:100%;
 }
 .services-text {
   color: #008080;
@@ -257,7 +249,7 @@ font-size:1rem;
   #servicesHeaderBg{
     border:lightblue 1px solid;
     background-color: #efefef;
-width:100%;
+    width:100%;
   }
   .services-text {
     color: #008080;
@@ -272,7 +264,7 @@ width:100%;
 .work {
   padding-top: 60px;
   margin-top: -60px;
-width:100%;
+
 }
 #workTiles{
   display:grid;
@@ -311,7 +303,7 @@ grid-row: span 2;
 #workHeaderBg{
   border:lightblue 1px solid;
   background-color: black;
-width:100%;
+  width:100%;
 }
 
 /**************************768 ESXPANSION POINT*********************************/
@@ -319,7 +311,7 @@ width:100%;
 {
   #workHeaderBg{
     border:lightblue 1px solid;
-width:100%;
+    width:100%;
   }
 }
 
@@ -327,7 +319,6 @@ width:100%;
 .articles {
   padding-top: 60px;
   margin-top: -60px;
-width:100%;
 }
 
 .articles .articles-header {
@@ -347,7 +338,6 @@ width:100%;
   /*   min-height:800px; */
   background: #C8F7C5;
   padding-bottom: 160px;
-width:100%;
 }
 
 .header {
@@ -395,7 +385,6 @@ footer {
   background: #22313F;
   color: white;
   line-height: 40px;
-  width:100%;
 }
 
 footer a {
