@@ -1,0 +1,60 @@
+section - mobile menu create
+1)Create a responsive menu from my existing menu that goes to my menu from a mobile when screen expanded
+2)Decide what the menu looks like on mobile, decide the break points, decide how it animates to my menu
+3)Create the mobile menu , decide the break points, how to animate
+4)At mobile state it has Menu button at the top which animates menu underneath, @600 it changes to my menu 
+5)Code
+scripts/index.js - link to local json file instead of storing i JavaScript
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+styles/styles.css - welcome section make the welcome section mobile friendly
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+index.html - work section - front page to include 5/6 articles click more to goto work page
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+index.html - services section - front page to include 5/6 services click for more to gfo to the services page
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+index.html - articles section - front page to include 5/6 articles click for more to go to the articles
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+index.html - contact section - with each button mouse over or touch brings up info click to open up new window
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+work.html - create Page
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+services.html - create Page
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
+articles.html - crreate page
+1)Statement
+2)questions
+3)steps
+4)solutions
+5)Code
